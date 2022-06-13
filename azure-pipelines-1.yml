@@ -9,7 +9,7 @@ trigger:
 pool: Default
 
 steps:
-- task: CopyFiles@2
+- task: CopyFilesNode16@2
   inputs:
     SourceFolder: 'tests'
     Contents: '*'
