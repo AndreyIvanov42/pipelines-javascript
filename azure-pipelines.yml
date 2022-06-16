@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: macos
+pool: default
 
 steps:
 - task: CopyFilesNode16@2
